@@ -35,6 +35,234 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
+
+### Css code:
+```
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: whitesmoke;
+  color:rebeccapurple;
+  
+}
+.container {
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  box-shadow: 15px 15px 8px gray;
+}
+
+.topbg {
+  display: block;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 60px;
+  background-image: url("/static/img/topbg.jpg");
+  background-size: 100% 100%;
+  margin: 0px 0px 0px 0px;
+  padding-top: 150px;
+  color: cornsilk;
+}
+.bgimg {
+  background-image: url("static/img/topbg.jpg");
+}
+
+.menu {
+  display: block;
+  width: 100%;
+  height: 50px;
+  font-size: larger;
+  background-color: cyan;
+  text-align: center;
+  padding-top: 15px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+}
+
+.menuitem {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menuitemselected {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(149, 10, 241);
+}
+
+.menuitem a {
+  text-decoration: none;
+  color: purple;
+}
+
+.content {
+  display: block;
+  width: 100%;
+  background-color: white;
+  min-height: 500px;
+  margin: 0px 0px 0px 0px;
+  border-width: 1px;
+  border-color: rgb(10, 6, 243);
+  border-style: solid;
+}
+.homecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+.homecontent h1 {
+  text-align: left;
+}
+.homecontent img {
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-left: 10px;
+}
+
+.contenttext {
+  text-align: justify;
+}
+
+.productcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.productcontent h1 {
+  text-align: left;
+}
+
+.productitems {
+  display: block;
+}
+
+.productitem {
+  display: inline-block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.productitem img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.productitem .itemimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.productitem .itemname {
+  display: block;
+}
+.productitem .itemprice {
+  display: block;
+}
+
+
+
+
+
+
+
+.peoplecontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.peoplecontent h1 {
+  text-align: left;
+}
+
+.peopleitems {
+  display: block;
+}
+
+.peopleitem {
+  display: block;
+  width: 30%;
+  height: 250px;
+  text-align: center;
+}
+
+.peopleitem img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.peopleitem .peopleimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  margin-bottom: 5px;
+}
+
+.peopleitem .peoplename {
+  display: block;
+}
+.peopleitem .peoplepos{
+  display: block;
+}
+
+
+
+
+
+
+.Contactcontent {
+  min-height: 500px;
+  margin: 10px 10px 10px 10px;
+}
+
+.Contactcontent h1 {
+  text-align: left;
+}
+
+.Contactitems {
+  display: block;
+}
+
+.Contactitem {
+  display:block;
+  text-align: left;
+}
+
+.Contactitem .conadd {
+  display: block;
+  text-align: left;
+}
+.Contactitem .connum {
+  display: block;
+  text-align: left;
+}
+.Contactitem .conem {
+  display: block;
+  text-align: left;
+}
+
+.footer {
+  display: block;
+  width: 100%;
+  height: 40px;
+  background-color:  cyan;
+  text-align: center;
+  padding-top: 10px;
+  margin: 0px 0px 0px 0px;
+  color:purple;
+}
+
+```
  ### Home page html Code:
  ```
  <!DOCTYPE html>
