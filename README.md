@@ -35,7 +35,7 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 ## PROGRAM :
- ### Home pade html Code:
+ ### Home page html Code:
  ```
  <!DOCTYPE html>
 <html lang="en">
